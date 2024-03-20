@@ -1,0 +1,91 @@
+# Omit compiled and runtime files
+bin/
+obj/
+out/
+
+# Omit the dynamic data directories created
+data/
+wwwroot/
+TestResults/
+
+# Omit user-specific files
+*.user
+*.suo
+*.userprefs
+
+# Omit the .vs folder which contains user specific settings
+.vs/
+
+# Omit the local SQL database files
+*.mdf
+*.ldf
+
+# Omit the appsettings local file which might contain sensitive data
+appsettings.Development.json
+appsettings.Local.json
+
+# Omit the publish output
+publish/
+
+# Omit NPM packages
+node_modules/
+
+# Omit package lock files
+project.lock.json
+project.assets.json
+packages.lock.json
+
+# Omit ReSharper files
+_ReSharper*/
+*ReSharper*
+
+# Omit user secrets
+*.secret
+
+# Omit the build output directory
+build/
+
+# Omit logs
+logs/
+*.log
+*.log.*
+
+# Omit temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Omit cache files
+cache/
+*.cache
+
+# Omit IDE files (JetBrains Rider)
+.idea/
+
+# Omit macOS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Omit thumbnail cache files
+._*
+
+# Omit files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Omit Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Omit Folder config file
+Desktop.ini
+
+# Omit npm debug logs
+npm-debug.log*
